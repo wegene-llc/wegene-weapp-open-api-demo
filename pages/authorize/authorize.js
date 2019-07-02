@@ -2,6 +2,7 @@
 Page({
 
   /**
+   *  生产中，请替换您的 client_id 和 scope
    *  redirect_uri 是部署在您服务器端的一个页面，所在域名需要添加到小程序业务域名白名单中
    *  该页面需要实现解析回调 code 并转发给小程序原生页面进一步处理的逻辑
    *  实现可参考 server/callback.html 文件
