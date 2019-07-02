@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <navigator url="/pages/authorize/authorize" open-type="redirect"> 授权 WeGene 数据 </navigator>
+  </view>
+</view>

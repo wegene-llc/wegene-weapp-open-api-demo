@@ -1,0 +1,6 @@
+<!--pages/authorize/authorize.wxml-->
+<!--
+  生产中，请替换您的 client_id 和 scope
+  wegeneAuthUrl 定义在 authorize.js 中
+-->
+<web-view src="{{wegeneAuthUrl}}"></web-view>
